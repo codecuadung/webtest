@@ -1,6 +1,6 @@
 import { io } from 'socket.io-client';
 
-const SERVER_URL = 'http://localhost:3000'; // Địa chỉ server của bạn
+const SERVER_URL = 'https://apptest3-production.up.railway.app'; // Địa chỉ server của bạn
 
 // Khởi tạo socket với URL của server
 const socket = io(SERVER_URL, {

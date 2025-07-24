@@ -36,7 +36,7 @@ function Home() {
 
   const handleLogout = async () => {
     try {
-      const response = await fetch('http://localhost:3000/v1/auth/logout', {
+      const response = await fetch('https://apptest3-production.up.railway.app/v1/auth/logout', {
         method: 'POST',
         credentials: 'include', // Để gửi cookie
         headers: {
