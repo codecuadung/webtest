@@ -7,13 +7,8 @@ import { AppContext } from '../../services/AppContext';
 
 const Login = () => {
   const navigate = useNavigate();
-<<<<<<< HEAD
   const [username, setUsername] = useState('apptest2');
   const [password, setPassword] = useState('dung123');
-=======
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
->>>>>>> b5559a62a9dc41f2bde974ff7f1cccd09be4d79c
   const [error, setError] = useState('');
   const [displayText, setDisplayText] = useState('');
   const fullText = 'Welcome to StyleLife Shop Admin';
